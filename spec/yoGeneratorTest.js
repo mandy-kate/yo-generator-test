@@ -11,9 +11,9 @@ describe('reverseString(str)', function () {
 
   });
 
-  it('reverses a string', function () {
-    reverseString('abc');
-    expect('cba').to.equal('cba');
+  it('reverse a string', function () {
+    reverseString('hello');
+    expect('olleh');
   });
 
   it('does something else', function () {
