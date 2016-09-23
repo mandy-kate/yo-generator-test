@@ -10,7 +10,7 @@ function fizzBuzz(number) {
         output += "Fizz";
       if (number % 5 == 0)
         output += "Buzz";
-      return (output || number);
+      return (output || number)
 }
 
 if ( typeof module !== "undefined" ) {
